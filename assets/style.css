@@ -31,7 +31,7 @@ a:hover {
 }
 
 a.title {
-	color: #cc241d;
+	color: #216477;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 14pt;
@@ -47,12 +47,12 @@ a.header {
 
 .dark a.title,
 .dark a.header {
-	color: #fb4934;
+	color: #339cba;
 }
 
 #wrapper {
 	overflow-x: hidden;
-	max-width: 80ch;
+	width: 80ch;
 	font: 12pt 'Source Code Pro', monospace;
 	margin: 20px auto;
 	white-space: pre;
@@ -60,4 +60,23 @@ a.header {
 
 #github {
 	height: 1em;
+}
+
+#me {
+	max-width: 100%;
+}
+
+#contact-div {
+	display: flex;
+	align-items: flex-start;
+}
+
+
+#contact-img {
+	flex-basis: 20%;
+}
+
+#contact-text {
+	flex-basis: 80%;
+	padding-right: 20px;
 }
