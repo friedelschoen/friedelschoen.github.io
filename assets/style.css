@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+body {
+	background: #eee;
+	color: #3c3836;
+}
+
+body.dark {
+	background: #3c3836;
+	color: #eee;
+}
+
+#toggle_dark {
+	background: #3c3836;
+	color: #eee;
+	cursor: pointer;
+}
+
+.dark #toggle_dark {
+	background: #eee;
+	color: #3c3836;
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a.title {
+	color: #cc241d;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+a.title:hover {
+	text-decoration: underline;
+}
+
+a.header {
+	font-size: 18pt;
+}
+
+.dark a.title,
+.dark a.header {
+	color: #fb4934;
+}
+
+#wrapper {
+	overflow-x: hidden;
+	max-width: 80ch;
+	font: 12pt 'Source Code Pro', monospace;
+	margin: 20px auto;
+	white-space: pre;
+}
+
+#github {
+	height: 1em;
+}
