@@ -10,6 +10,12 @@ body.dark {
 	color: #eee;
 }
 
+@media(max-width:999px) {
+	body {
+		font-size: 1.94vw
+	}
+}
+
 #toggle_dark {
 	background: #3c3836;
 	color: #eee;
@@ -30,18 +36,23 @@ a:hover {
 	font-weight: bold;
 }
 
-a.title {
+.title {
 	color: #216477;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 14pt;
 }
 
-a.title:hover {
+.title:hover {
 	text-decoration: underline;
 }
 
-a.header {
+.subtitle {
+	color: #216477;
+	text-decoration: underline;
+}
+
+.header {
 	font-size: 18pt;
 }
 
