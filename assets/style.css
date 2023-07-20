@@ -10,12 +10,6 @@ body.dark {
 	color: #eee;
 }
 
-@media(max-width:999px) {
-	body {
-		font-size: 1.94vw
-	}
-}
-
 #toggle_dark {
 	background: #3c3836;
 	color: #eee;
@@ -62,7 +56,6 @@ a:hover {
 }
 
 #wrapper {
-	overflow-x: hidden;
 	width: 80ch;
 	font: 12pt 'Source Code Pro', monospace;
 	margin: 20px auto;
@@ -84,10 +77,10 @@ a:hover {
 
 
 #contact-img {
-	flex-basis: 20%;
+	flex-basis: 35%;
 }
 
 #contact-text {
-	flex-basis: 80%;
+	flex-basis: 65%;
 	padding-right: 20px;
 }
